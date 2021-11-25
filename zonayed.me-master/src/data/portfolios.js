@@ -8,7 +8,7 @@ export const portfolios = {
         "A Collection of free Multicolor CSS, JPG, PNG, SVG Gradients with a Gradienta Editor",
       demo: "https://yatraclone.herokuapp.com/",
       source: "https://github.com/GYashvant/Tanishq",
-      tools: ["HTML", "CSS", "JavaScript", "MongoDB","EJS"],
+      tools: [ "CSS", "MongoDB","EJS","JS"],
     },
     {
       type: "featured",
@@ -18,7 +18,7 @@ export const portfolios = {
         "A Collection of Bengali Cheatsheets for the developers, completely open-source",
       demo: "https://yatraclone.herokuapp.com/",
       source: "https://github.com/Balkishan-Pal/Yatra",
-      tools: ["JavaScript", "json", "React","HTML","MongoDB"],
+      tools: [ "CSS", "React","MongoDB"]
     },
   ],
 }

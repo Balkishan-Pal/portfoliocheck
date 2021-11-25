@@ -25,7 +25,7 @@ const About = () => {
             </p>
             <div className="about-action">
               <Button
-                link="https://github.com/zonayedpca/zonayed.me/raw/master/src/data/file/MyResume.pdf"
+                link="https://github.com/Balkishan-Pal/portfoliocheck/raw/master/zonayed.me-master/src/data/file/MyResume.pdf"
                 target="_blank"
                 bgColor="#00cf5d"
                 title="Get Resume"
