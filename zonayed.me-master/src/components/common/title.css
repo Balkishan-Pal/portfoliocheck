@@ -26,7 +26,7 @@
   position: absolute;
   height: 100%;
   width: 2px;
-  margin: 15px 0;
+  margin: 22px 0;
   background: rgba(255, 255, 255, 0.85);
   z-index: -1;
 }
@@ -44,7 +44,7 @@
   color: rgba(255, 255, 255, 0.85);
 }
 
-.title p {
+.title h2 {
   padding: 5px 10px;
   font-weight: 900;
   text-transform: uppercase;
@@ -55,7 +55,7 @@
 }
 
 .title.left p {
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
 }
 
 .title.title.right p {
@@ -72,7 +72,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen {
   .title {
     position: relative;
     height: initial !important;
@@ -88,7 +88,7 @@
   .title:after {
     top: 0;
     height: 2px;
-    width: 260px;
+    /* width: 290px; */
   }
 
   .title ul {
@@ -103,7 +103,7 @@
 
 @media only screen and (max-width: 481px) {
   .title:after {
-    width: 180px;
+    width: 220px;
   }
 
   .title {

@@ -60,6 +60,7 @@
 
 .portfolio-items .portfolio-img {
   position: relative;
+  transform: scale(0.95);
 }
 
 .portfolio-items .portfolio .links {
@@ -94,11 +95,14 @@
   opacity: 1;
   background: #1d293a;
   mix-blend-mode: color;
-  transition: 0.5s all;
+  transition: 0.4s all;
+ 
 }
 
 .portfolio-items .portfolio:hover .portfolio-img:after {
-  opacity: 0;
+  
+  /* opacity: 0; */
+  background: 0%;
 }
 
 .portfolio-items .portfolio.small h4 {
@@ -174,6 +178,7 @@
 @media only screen and (max-width: 481px) {
   .portfolio-nav {
     margin-bottom: 0;
+   
   }
 
   .portfolio-nav li {
@@ -183,9 +188,16 @@
 
   .portfolio-items > * {
     margin-bottom: 15px;
+    
   }
+
 
   .portfolios-regular {
     margin-top: 15px;
   }
+  .portfolio-items .portfolio:hover .portfolio-img:after {
+
+    opacity: 0;
+  }
+
 }

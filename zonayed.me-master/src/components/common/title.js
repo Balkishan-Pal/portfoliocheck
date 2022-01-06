@@ -57,7 +57,7 @@ export const Title = ({ title, social, side, height }) => {
           </li>
         </ul>
       )}
-      <p>{title}</p>
+      <h2>{title}</h2>
     </div>
   )
 }

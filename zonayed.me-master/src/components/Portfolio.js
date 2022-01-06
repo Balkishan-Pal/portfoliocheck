@@ -20,8 +20,8 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio-area">
       <Container>
-        <div className="title left" style={{ height: "160px" }}>
-          <p>Portfolio</p>
+        <div className="title left" style={{ height: "160px"}}>
+          <h2>Portfolio</h2>
         </div>
         <div className="portfolios">
           <ul className="portfolio-nav">

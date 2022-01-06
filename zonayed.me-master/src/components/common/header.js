@@ -84,18 +84,18 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a
+              {/* <a
                 target="__blank"
                 rel="noopener noreferrer"
                 href="https://hashnode.com/@Balkishan"
               >
                 Blog
-              </a>
+              </a> */}
             </li>
             <li>
               <a
                 className="btn-download"
-                target="_blank"
+                target=""
                 rel="noopener noreferrer"
                 href="https://github.com/Balkishan-Pal/portfoliocheck/raw/master/zonayed.me-master/src/data/file/MyResume.pdf"
               >

@@ -22,7 +22,7 @@ const Intro = () => {
             <div className="action">
               <Button
                 link="https://github.com/Balkishan-Pal/portfoliocheck/raw/master/zonayed.me-master/src/data/file/MyResume.pdf"
-                target="__blank"
+                target=""
                 bgColor="#00cf5d"
                 title="Get Resume"
               />

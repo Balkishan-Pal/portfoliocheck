@@ -13,11 +13,11 @@ const Contact = () => {
           <div className="contact-details">
             <ul>
               <li>
-                <h5>
+                {/* <h5>
                   <a target="_blank" href="https://gmail.com/">
                 <img src="https://img.icons8.com/color/48/000000/gmail-new.png"/>
                 </a>
-                </h5>
+                </h5> */}
               </li>
               <li>
                 <h5 style={{marginLeft: "2px"}}>
@@ -49,7 +49,10 @@ const Contact = () => {
             <p>
               I am interested in working with any company that thinks my skill
               will be helpful for them. If you are looking for someone like me,
-              please let me know.
+              please let me know.<br></br>
+              Phone: +91 6263393591
+              .<br></br>
+              Email: balkishanpal3@gmail.com
             </p>
             <div>
               <Button
